@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #232121;
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: white;
+    height: 450px;
+    width: 400px;
+    border-radius: 25px;
+  }
+  
+  .img-fondo {
+    width: auto;
+    height: 200px;
+    border-radius: 25px 25px 0px 0px;
+    background-color: white;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 180px;
+    border-radius: 25px 25px 0px 0px;
+  }
+  
+  .perfil {
+    position: relative;
+    left: 15px;
+    top: -85px;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: white solid 6px;
+  }
+  
+  .img-pais {
+    position: relative;
+    width: auto;
+    height: 200px;
+    top: -85px; /* Alinea la imagen de la bandera a la par de la imagen de perfil */
+  }
+  
+  .pais {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    top: 0; /* Ajusta la posición vertical de la imagen de la bandera */
+    left: 170px; /* Alinea la imagen de la bandera a la par de la imagen de perfil */
+    border: white solid 1px;
+  }
+  
+  .nombre-div {
+    position: absolute;
+    width: auto;
+    background-color: transparent;
+  }
+  
+  .nombre {
+    position: relative;
+    width: auto;
+    top: -330px;
+    color: black;
+    font-family: Gabarito;
+    left: 150px;
+    font-size: 28px;
+    background-color: transparent;
+  }
+  
+  @media (max-width: 550px) {
+    .perfil {
+      position: absolute;
+      right: 240px;
+      top: 240px;
+      width: 120px;
+      height: 120px;
+      border-radius: 100%;
+      border: white solid 6px;
+    }
+  }
+  
+  @font-face {
+    font-family: "Gabarito";
+    src: url("./Fonts/Gabarito-SemiBold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
