@@ -26,8 +26,8 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 5px;
-  height: 450px;
-  width: 400px;
+  height: 480px;
+  width: 410px;
   margin: 50px auto;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .img-pais {
-  margin-top: 20px;
+  margin-top: -60px;
 }
 
 .pais {
@@ -68,7 +68,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  bottom: 200px;
+  bottom: 115px;
   left: -99px;
   border: white solid 1px;
 }
@@ -147,12 +147,19 @@ body {
     width: 90%;
   }
 
+  .perfil-nombre .nombre,
+  .profesion {
+    position: relative;
+    top: -135px;
+    z-index: 1;
+    left: 55px;
+  }
+  
   .nombre {
     margin: 0;
     font-size: 22px;
     color: #333;
     font-family: Gabarito;
-
   }
 
   .profesion {
@@ -182,4 +189,19 @@ body {
     padding: 0 30px;
     color: #1f1f1f;
   }
+
+  .img-pais {
+    margin-top: -35px;
+  }
+
+  .pais {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    bottom: 130px;
+    left: -75px;
+    border: white solid 1px;
+  }
+
 }
